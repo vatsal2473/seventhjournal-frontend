@@ -17,7 +17,7 @@ const processApi = async (text, setResponse) => {
     redirect: 'follow'
   };
   
-  fetch("https://7ca920e06e1e.ngrok.app/insights", requestOptions)
+  fetch("https://2b30bf5695f8.ngrok.app//insights", requestOptions)
     .then(response => response.json())
     .then(result => {
       console.log(result);
